@@ -25,7 +25,7 @@ MangaCenter é um aplicação web APIRest em Node.js desenvolvido com TypeScript
 
 - **Node.js** (versão 18+)
 - **npm** ou **yarn** para gerenciamento de pacotes
-
+- **PostgreSQL** para persistência de dados
 ## Instalação
 
 1. Clone este repositório:
@@ -50,3 +50,4 @@ MangaCenter é um aplicação web APIRest em Node.js desenvolvido com TypeScript
     npm run dev
 <span></span>
 Ele indentificara que não há dados no seu banco de dados e criara a tabela automaticamente e já ira inserir automaticamente grande maioria dos sites pré-disponibilizado por um json.
+Há somente uma rota "/" que a lista de sites.
