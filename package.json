@@ -1,0 +1,42 @@
+{
+  "name": "mangacenter_server",
+  "version": "1.0.0",
+  "description": "APIRest do Mangá Center",
+  "main": "server.js",
+  "scripts": {
+    "dev": "tsx watch app/server/server.ts",
+    "start": "node dist/server/server.js",
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=20.0.0 <21.0.0"
+  },
+  "keywords": [
+    "Node.js",
+    "TypeScript",
+    "Express"
+  ],
+  "author": "Walisson (Sileniz)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.13.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.0.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.6",
+    "@types/node-cron": "^3.0.11",
+    "@types/node-fetch": "^2.6.12",
+    "@types/pg": "^8.11.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
